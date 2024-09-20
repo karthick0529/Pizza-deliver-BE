@@ -88,7 +88,7 @@ router.route("/forgotpassword").post(async (req, res) => {
     },
   });
 
-  const link = `https://mega-pizza-delivery.netlify.app/forgotpassword/verify/${token}`;
+  const link = `https://enchanting-crisp-f39f60.netlify.app/forgotpassword/verify/${token}`;
   // const link = `http://localhost:3000/forgotpassword/verify/${token}`;
   const mailoptions = {
     from: "userbase@gmail.com",
